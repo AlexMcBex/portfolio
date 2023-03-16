@@ -9,7 +9,7 @@
     --clr-primary: #2c4268;
     --clr-secondary: #FFFFFF;
     --clr-terziary: #282d72 ;
-    --clr-accent: rgb(77, 83, 147);
+    --clr-accent: rgb(77, 97, 147);
     --clr-background: #ffffff;
 /* font size */
     --fs-h1: 3rem;
@@ -85,7 +85,7 @@ h3{
 
 .title{
     color: var(--clr-primary);
-    font-family: var(--ff-secondary);
+    font-family: var(--ff-primary);
     font-style: italic;
 }
 .subtitle{
@@ -176,17 +176,17 @@ a:hover{
     font-family: var(--ff-secondary);
     color: var(--clr-secondary)
 }
-.subtitle-skill{
-    color:var(--clr-background);
-    font-weight: 600;
-    align-self: center;
-}
 
+.title-intro{
+    color: white;
+    font-size: 2rem;
+}
 /* icons */
 .skill-icon{
 width: 70px;
 height: 70px;
-margin: 30px;
+margin-left: 30px;
+margin-right: 30px;
 }
 .skills{
     display: flex;
@@ -220,6 +220,7 @@ margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 @media (max-width: 1024px){
    .section{
@@ -228,38 +229,10 @@ margin: 30px;
    .skill-icon{
     width: 50px;
     height: 50px;
+    margin: 2px
     }
 }
 
-
-.contact-icon{
-    background-color: white;
-    border-radius: 100px;
-    padding: 10px;
-    
-    border: 2px solid black;
-}
-.contact-icon-mail{
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    
-    border: 2px solid black;
-}
-.contact-icon-mail:hover{
-    border: 2px solid white;
-    
-}
-.contact-icon:hover{
-    border: 2px solid white;
-}
-.contact-link{
-    color: white;
-}
-.contact-link:hover{
-    color: white;
-    border: 5px solid white;
-}
 .project-link{
     margin: 5px
 }
@@ -338,3 +311,45 @@ margin: 30px;
         border-radius: 10px;
        }
  }
+
+ .subtitle-skill{
+    color:var(--clr-background);
+    font-weight: 600;
+    align-self: center;
+    margin-bottom: 0
+}
+.contact-icon{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.contact-icon-mail{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+    border: 2px solid black;
+}
+.contact-icon-mail:hover{
+    border: 2px solid white;
+    
+}
+.contact-icon:hover{
+    border: 2px solid white;
+}
+.contact-link{
+    color: white;
+}
+.contact-link:hover{
+    color: white;
+    border: 5px solid white;
+}
+.contact-column{
+    padding-top: 10vh
+}
+.contact-columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

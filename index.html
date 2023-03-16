@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessio Belli</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+        integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="navbar is-fixed-top ">
+            <div class="logo navbar-brand">
+                <a href="#home" class="navbar-item">
+                    <h1 class="title nav-brand">&lt;Alex Belli /&gt; </h1>
+                </a>
+                <a role="button" class="navbar-burger" id="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbar-menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#about" class="navbar-item">About Me</a>
+                    <a href="#skills" class="navbar-item">Skills</a>
+                    <a href="#projects" class="navbar-item">Projects</a>
+                    <a href="#contact" class="navbar-item">Contact Me</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <!--  HOME   -->
+        <div class="scroll-container">
+            <section class="intro section section-color" id="home">
+                <div class="columns">
+                    <div class="column is-5">
+                        <img src=".//img/alex-avatar.png" class="avatar" alt="a drawing of Alex">
+                    </div>
+                    <div class="column is-7 intro-col">
+                        <h1 class="title title-intro intro-code">
+                            const alex = {
+                        </h1>
+                        <p class="subtitle intro-code">&nbsp;&nbsp;name: 'Alessio "Alex" Belli',
+                            <br>&nbsp;&nbsp;city: 'New York City',
+                            <br>&nbsp;&nbsp;occupation: 'Full Stack Developer'
+                        </p>
+                        <h1 class="title title-intro intro-code">}</h1>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- ABOUT -->
+            <section class="about-me section section-white" id="about">
+                <h2 class="title">&lt;About Me /&gt;</h2>
+                <p class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi deleniti ullam blanditiis eligendi fuga? Ea est id consequatur ipsa et tempora reiciendis, vel blanditiis sequi laborum! Explicabo harum voluptatibus tenetur.</p>
+            </section>
+
+
+            <!-- SKILLS -->
+            <section class="my-skills section section-color  tiles" id="skills">
+                <h2 class="title title-skills">&lt;My Skills /&gt;</h2>
+                <h3 class="subtitle subtitle-skill">Front-End</h3>
+                <div class="skills" >
+                    <img src="./img/icon/html.png" alt="HTML" class='skill-icon'>
+                    <img src="./img/icon/css.png" alt="CSS" class='skill-icon'>
+                    <img src="./img/icon/js.png" alt="JS" class='skill-icon'>
+                    <img src="./img/icon/react.png" alt="React" class="skill-icon">
+                    <img src="./img/icon/liquid.png" alt="liquid" class="skill-icon">
+                </div>
+                <h3 class="subtitle subtitle-skill">Back-End</h3>
+                <div class="skills">
+                    <img src="./img/icon/nodejs.png" alt="NodeJs" class="skill-icon">
+                    <img src="./img/icon/python.png" alt="Python" class="skill-icon">
+                    <img src="./img/icon/npm.png" alt="NPM" class="skill-icon">
+                    <img src="./img/icon/django.png" alt="Django" class="skill-icon">
+                </div>
+
+                <h3 class="subtitle subtitle-skill">Other</h3>
+                <div class="skills">
+                    <img src="./img/icon/mongodb.png" alt="mongodb" class="skill-icon">
+                    <img src="./img/icon/sql.png" alt="sql" class="skill-icon">
+                    <img src="./img/icon/github.png" alt="github" class="skill-icon">
+                    <img src="./img/icon/bulma.png" alt="bulma" class="skill-icon">
+                    <img src="./img/icon/bootstrap.png" alt="bootstrap" class="skill-icon">
+                    <img src="./img/icon/vscode.png" alt="vscode" class="skill-icon">
+                </div>
+            </section>
+
+
+            <!-- PROJECTS -->
+            <section class="my-projects section section-white" id="projects">
+                <h2 class="title">&lt;My Projects /&gt;</h2>
+
+
+                <h3 class="subtitle">Fish in a Bucket</h3>
+                <a href="https://alexmcbex.github.io/Fish-in-a-Bucket---Project-1/">Demo</a>
+                <a href="https://github.com/AlexMcBex/Fish-in-a-Bucket---Project-1">GitHub</a>
+
+                <h3 class="subtitle">Pokemon Teams</h3>
+                <a href="https://pokemonteams.fly.dev/">Demo</a>
+                <a href="https://github.com/AlexMcBex/PokemonTeams_Project-2">GitHub</a>
+
+                <h3 class="subtitle">Project W3</h3>
+                <a href="https://project-3w.netlify.app/">Demo</a>
+                <a href="https://github.com/AlexMcBex/Project3-client">GitHub Front End</a>
+                <a href="https://github.com/AlexMcBex/Project3-BackEnd">GitHub Back End</a>
+
+                <h3 class="subtitle">Front-End Mentor - Calculator</h3>
+                <a href="">Demo</a>
+                <a href="https://github.com/AlexMcBex/Calculator-App">GitHub</a>
+
+                <h3 class="subtitle">Xketchez</h3>
+                <a href="">Demo</a>
+                <a href="https://github.com/AlexMcBex/Xketchez">GitHub</a>
+            </section>
+
+
+            <!-- CONTACT -->
+            <section class="contact-me section last-section section-color" id="contact">
+                <h2 class="title">&lt;Contact Me /&gt;</h2>
+                <a href="https://www.linkedin.com/in/alessio-belli/">LinkedIn</a>
+                <a href="https://github.com/AlexMcBex">GitHub</a>
+                <a href="mailto: alessiobelli94@gmail.com">Email</a>
+            </section>
+    </main>
+    </div>
+    <footer>
+        <footer class="footer">
+            <div class="content footer-content has-text-centered">
+              <p class="footer-content">
+                &#169; Designed and coded by Alessio Belli
+              </p>
+            </div>
+          </footer>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

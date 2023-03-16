@@ -24,7 +24,10 @@
 }
 
 *{
-    transition: 1s ease;
+    transition: .75s ease;
+}
+a{
+    transition: .4s
 }
 
 /* DESKTOP */
@@ -35,12 +38,14 @@
         --fs-h3: 1.5rem;
         --fs-p: 1.125rem;
     }
+    
 }
+
 
 /* GENERAL */
 .section{
     height: 102vh;
-    padding-top: 80px; 
+    padding-top: 100px; 
 }
 html{
     scroll-behavior: smooth;
@@ -97,6 +102,9 @@ h3{
 p{
     color: var(--clr-secondary)
 }
+footer{
+    height: 3vh;
+}
 .last-section{
     height: 80vh
 }
@@ -144,13 +152,14 @@ strong{
     background-color: white;
 }
 a{
-    margin: 10x;
+    margin: 10px;
     padding: 3px;
 }
 a:hover{
-    border: 3px solid var(--clr-accent);
+    border-style: solid;
+    border-color:  var(--clr-accent);
     border-radius: 10px;
-    margin: 5px;
+    /* margin: 9px; */
     /* padding: 0px */
 }
 
@@ -214,11 +223,101 @@ margin: 30px;
 }
 @media (max-width: 1024px){
    .section{
-    padding-top: 85px;
+    padding-top: 90px;
    }
    .skill-icon{
-    width: 45px;
-    height: 45px;
-    margin: 20px;
+    width: 50px;
+    height: 50px;
     }
+}
+
+
+.contact-icon{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    
+    border: 2px solid black;
+}
+.contact-icon-mail{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    
+    border: 2px solid black;
+}
+.contact-icon-mail:hover{
+    border: 2px solid white;
+    
+}
+.contact-icon:hover{
+    border: 2px solid white;
+}
+.contact-link{
+    color: white;
+}
+.contact-link:hover{
+    color: white;
+    border: 5px solid white;
+}
+.project-link{
+    margin: 5px
+}
+.project-link:hover{
+    border-width: 5px;
+    margin: 0
+}
+.footer-link{
+    display:inline;
+}
+.footer-icon{
+    display:inline;
+}
+.footer-link:hover{
+    border: none
+}
+.project-card{
+ width: 50vh;
+ height: 20vh;
+ margin: 5px;
+ background-size: cover;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: inherit;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#intro-column{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-left: 20px;
+}
+.project-name{
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+.card-header{
+    background-color: var(--clr-accent);
+}
+.card-buttons{
+    align-items: center;
+}
+.button{
+    background-color: var(--clr-accent);
+    color: white;
+}
+.button:hover{
+    background-color: var(--clr-accent);
+    color: white;
 }

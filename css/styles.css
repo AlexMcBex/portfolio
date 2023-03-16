@@ -192,6 +192,7 @@ margin-right: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 #skills{
     text-align: center;
@@ -219,7 +220,7 @@ margin-right: 30px;
 .tiles{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 @media (max-width: 1024px){

@@ -188,9 +188,9 @@ margin-right: 30px;
     justify-content: center;
     margin-bottom: 5rem;
 }
-#skills{
+/* #skills{
     text-align: center;
-}
+} */
 .title-skills{
     text-align: left;
 }
@@ -203,7 +203,8 @@ margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
+    align-items: center;
+    /* flex-wrap: nowrap; */
 }
 
 
@@ -245,7 +246,10 @@ margin-right: 30px;
     margin-bottom: 0
 }
 .columns-project{
-   
+   /* display:flex; */
+   /* align-items: center ; */
+   flex-wrap: nowrap;
+   justify-content: center;
     align-items: center
 }
 #intro-column{

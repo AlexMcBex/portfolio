@@ -224,19 +224,26 @@ margin-right: 30px;
 .footer-link:hover{
     border: none
 }
+.projects{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
 .project-card{
- width: 40vh;
- height: 26vh;
- margin: 5px;
+ width: 90%;
+ height: 14rem;
+ margin: 10px;
  background-size: cover;
  border: solid 5px var(--clr-accent);
  border-radius: 10px;
 }
-.projects{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: inherit;
+.card-header{
+    padding:.25rem
 }
 .column{
     display: flex;
@@ -357,7 +364,11 @@ margin-right: 30px;
     p.intro-code{
         font-size: 1.15rem
     }
+    .projects {
+        grid-template-columns: 100%
+      }
 }
+
 @media (max-width: 1024px){
    .section{
     padding-top: 90px;
@@ -367,21 +378,27 @@ margin-right: 30px;
     height: 50px;
     margin: 2px
     }
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); 
+      }
 }
 @media (max-width: 838px){
     .project-card{
         width: 80%;
-        height:25vh;
+        height:13rem;
         margin: 5px;
         background-size: cover;
         border: solid 5px var(--clr-accent);
         border-radius: 10px;
        }
+       .projects {
+        grid-template-columns: 100%
+      }
        .section{
         height: 120vh
        }
        #projects{
-        height: 180vh;
+        height: 175vh;
        }
        .aboutme-p{
         font-size: var(--fs-mob);

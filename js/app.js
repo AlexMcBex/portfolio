@@ -1,26 +1,22 @@
-
-const navbarBurger = document.getElementById('navbar-burger')
-const navbarItems = document.querySelectorAll('.navbar-item')
-
+// navbar burger
 document.addEventListener('DOMContentLoaded', () => {
+    const navbarItems = document.querySelectorAll('.navbar-item')
+    const navbarBurger = document.getElementById('navbar-burger')
+    const navbarMenu = document.getElementById(navbarBurger.dataset.target)
 
     navbarBurger.addEventListener('click', () => {
-        
-        const idTarget = navbarBurger.dataset.target
-        const target = document.getElementById(idTarget)
         // console.log(navbarBurger, idTarget, target)
         navbarBurger.classList.toggle('is-active')
-        target.classList.toggle('is-active')
+        navbarMenu.classList.toggle('is-active')
         // console.log(navbarBurger.classList)
-
     })
-        navbarItems.forEach(item=>{
-            item.addEventListener('click', ()=>{
-                // console.log('navbar-item')
-                navbarBurger.classList.remove('is-active')
-                document.getElementById('navbar-menu').classList.remove('is-active')
-            })
+
+    navbarItems.forEach(item => {
+        item.addEventListener('click', () => {
+            // console.log('navbar-item')
+            navbarBurger.classList.remove('is-active')
+            navbarMenu.classList.remove('is-active')
         })
-    
+    })
 })
 

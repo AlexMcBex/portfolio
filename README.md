@@ -14,7 +14,7 @@ You can visit the portfolio at the following link: [PORTFOLIO](https://alexmcbex
 
 ## Introduction
 
-This portfolio website serves as a platform to present my work, skills, and experience in web development. It includes a collection of projects I've worked on, each with a brief description and links to live demos and source code repositories.
+This portfolio website serves as a platform to present my work, skills, and growing experience in web development. It includes a collection of projects I've worked on, each with a brief description and links to live demos and source code repositories. It has been written with some good ol' HTML, CSS and JavaScript.
 
 ## Technologies
 

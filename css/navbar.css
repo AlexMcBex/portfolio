@@ -1,21 +1,25 @@
-.navbar{
-    background-color: rgba(255, 255, 255, 0.222);
+.navbar {
+  background-color: rgba(255, 255, 255, 0.222);
 }
-.navbar-burger{
-    margin-top: 10px;
-    
+.navbar-burger {
+  margin-top: 10px;
 }
-.navbar-menu{
-    transition: .5s ease;
+.navbar-menu {
+  transition: 0.5s ease;
 }
-.navbar-item{
-    transition: .5s ease;
+.navbar-item {
+  transition: 0.5s ease;
 }
-.navbar-brand{
-    font-family: var(--ff-secondary);
-    padding: 9px;
-    transition: .5s ease;
+.navbar-brand {
+  font-family: var(--ff-secondary);
+  padding: 9px;
+  transition: 0.5s ease;
 }
-.navbar{
-    background-color: white;
+.navbar {
+  background-color: white;
+}
+.brand {
+  border-radius: 50px;
+  border: 2px solid var(--clr-accent);
+  height: 2rem;
 }

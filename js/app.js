@@ -65,6 +65,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ]
 
+
+    const skills ={
+        "Languages": {
+            "JavaScript": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+            "TypeScript": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
+            "HTML5": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+            "CSS3": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+            "Python": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+            "SQL": "https://img.icons8.com/?size=100&id=13406&format=png&color=000000"
+        },
+        "Frameworks": {
+            "node.js" : "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+        }
+    }
+
     const projectsContainer = document.getElementsByClassName('projects')
 
     projects.forEach(project => {
@@ -80,6 +95,47 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         `
     })
+
+    //  SKILLS
+    const skillsContainer = document.getElementsByClassName('skills-container')[0]
+
+    for (const category in skills){
+        const skillSection = document.createElement('div')
+        skillSection.classList.add('skills-section')
+
+        const heading = document.createElement('h3')
+        heading.textContent = category
+        heading.classList.add('skill-heading')
+        skillSection.appendChild(heading)
+
+        const skillsGrid = document.createElement('div')
+        skillsGrid.classList.add('skills-grid')
+
+        for (const skill in skills[category]){
+            const skillDiv = document.createElement('div')
+            skillDiv.classList.add('skill-div')
+
+            const skillImg = document.createElement('img')
+            skillImg.src = skills[category][skill]
+            skillImg.alt = skill
+            skillImg.classList.add('skill-icon')
+
+            const skillName = document.createElement('p')
+            skillName.textContent = skill
+            skillName.classList.add('skill-name')
+
+            skillDiv.appendChild(skillImg)
+            skillDiv.appendChild(skillName)
+
+            skillsGrid.appendChild(skillDiv)
+        }
+
+        skillSection.appendChild(skillsGrid)
+        skillsContainer.appendChild(skillSection)
+
+    }
+
+
     
 })
 

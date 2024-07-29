@@ -35,7 +35,7 @@ a {
 /* GENERAL */
 .section {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 110px;
 }
 html {
   scroll-behavior: smooth;
@@ -121,13 +121,13 @@ a {
   margin: 10px;
   padding: 3px;
 }
-a:hover {
+/* a:hover {
   border-style: solid;
   border-color: var(--clr-accent);
   border-radius: 10px;
-  /* margin: 9px; */
-  /* padding: 0px */
-}
+  margin: 9px;
+  padding: 0px
+} */
 
 .avatar {
   border-radius: 1000px;
@@ -154,19 +154,19 @@ a:hover {
 .project-link {
   margin: 5px;
 }
-.project-link:hover {
+/* .project-link:hover {
   border-width: 5px;
   margin: 0;
-}
+} */
 .footer-link {
   display: inline;
 }
 .footer-icon {
   display: inline;
 }
-.footer-link:hover {
+/* .footer-link:hover {
   border: none;
-}
+} */
 .column {
   display: flex;
   justify-content: center;
@@ -193,10 +193,10 @@ a:hover {
   background-color: var(--clr-accent);
   color: white;
 }
-.button:hover {
+/* .button:hover {
   background-color: var(--clr-accent);
   color: white;
-}
+} */
 .contact-icon {
   background-color: white;
   border-radius: 100px;
@@ -209,19 +209,19 @@ a:hover {
   padding: 10px;
   border: 2px solid black;
 }
-.contact-icon-mail:hover {
+/* .contact-icon-mail:hover {
   border: 2px solid white;
-}
-.contact-icon:hover {
+} */
+/* .contact-icon:hover {
   border: 2px solid white;
-}
+} */
 .contact-link {
   color: white;
 }
-.contact-link:hover {
+/* .contact-link:hover {
   color: white;
   border: 5px solid white;
-}
+} */
 .contact-column-1 {
   padding-top: 10vh;
 }

@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
 }
 .skill-div{
   align-items: center;
@@ -26,6 +26,8 @@
   border-radius: 20%;
   padding: .5rem;
   background-color: rgba(0, 0, 0, 0.4);
+  height: 7.5rem;
+  width: 6rem
 }
 
 .skill-div:hover{
@@ -53,18 +55,15 @@
     font-size: 1.25rem;
   }
 
-  .skills-grid {
-    gap: 5px;
-  }
 
   .skill-div {
     padding: 0.25rem;
   }
 
-  .skill-icon {
+  /* .skill-icon {
     width: 4rem;
     height: 4rem;
-  }
+  } */
 
   .skill-name {
     font-size: 0.875rem;

@@ -242,19 +242,6 @@ a {
 }
 
 @media (max-width: 769px) {
-  :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
-    --fs-p: 1.125rem;
-  }
-  .avatar {
-    align-self: center;
-    margin-top: 10vh;
-  }
-  .intro-col {
-    margin-top: 10vh;
-  }
   /* p.intro-code{
         font-size: 1.15rem
     } */
@@ -270,6 +257,19 @@ a {
 
 /* mobile */
 @media (max-width: 600px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-p: 1.125rem;
+  }
+  .avatar {
+    align-self: center;
+    margin-top: 10vh;
+  }
+  .intro-col {
+    margin-top: 10vh;
+  }
   .section {
     height: auto;
   }

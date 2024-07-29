@@ -76,12 +76,12 @@ document.addEventListener('DOMContentLoaded', () => {
             "SQL": "https://img.icons8.com/?size=100&id=13406&format=png&color=000000"
         },
         "Frameworks": {
-            "node.js" : "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+            "Node.js" : "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
             "React js" : "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
             "Next.js": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
             "Bootstrap": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000",
-            "Tailwind CSS": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
-            "Express Js": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
+            "Tailwind": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+            "Express": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
             "Django": "https://img.icons8.com/?size=100&id=mUBILbYvUMq8&format=png&color=000000"
 
         },

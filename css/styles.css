@@ -36,6 +36,7 @@ a {
 .section {
   height: 100vh;
   padding-top: 110px;
+  padding-bottom: 110px
 }
 html {
   scroll-behavior: smooth;
@@ -259,14 +260,18 @@ a {
     } */
 }
 
-@media (max-width: 1024px) {
+/* Tablet  */
+@media (min-width: 601px) and (max-width: 1024px) {
   .section {
-    padding-top: 90px;
+    height: auto;
+    /* padding-top: 90px; */
   }
 }
-@media (max-width: 838px) {
+
+/* mobile */
+@media (max-width: 600px) {
   .section {
-    height: 120vh;
+    height: auto;
   }
   .aboutme-p {
     font-size: var(--fs-mob);

@@ -32,19 +32,17 @@
   align-items: center;
 }
 
-/* OPTIMIZATION */
+/* Responsivness */
 
-@media (max-width: 769px) {
-  .projects {
-    grid-template-columns: 100%;
-  }
-}
-@media (max-width: 1024px) {
+/* Tablet  */
+@media (min-width: 601px) and (max-width: 1024px) {
   .projects {
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   }
 }
-@media (max-width: 838px) {
+
+/* mobile */
+@media (max-width: 600px) {
   .project-card {
     width: 80%;
     height: 13rem;

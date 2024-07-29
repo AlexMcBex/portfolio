@@ -77,6 +77,24 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         "Frameworks": {
             "node.js" : "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+            "React js" : "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
+            "Next.js": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
+            "Bootstrap": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000",
+            "Tailwind CSS": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+            "Express Js": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
+            "Django": "https://img.icons8.com/?size=100&id=mUBILbYvUMq8&format=png&color=000000"
+
+        },
+        "Tools": {
+            "MongoDB": "https://img.icons8.com/?size=100&id=74402&format=png&color=000000",
+            "Firebase": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000",
+            "GitHub": "https://img.icons8.com/?size=100&id=12598&format=png&color=000000",
+            "AWS": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+            "GCP": "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000",
+            "Linux": "https://img.icons8.com/?size=100&id=17842&format=png&color=000000",
+            "Figma": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000",
+            "VS Code": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000",
+            "Postman": "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
         }
     }
 
@@ -134,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
         skillsContainer.appendChild(skillSection)
 
     }
+    console.dir(skills)
 
 
     

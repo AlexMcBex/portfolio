@@ -30,9 +30,13 @@ a {
   transition: 0.4s;
 }
 
-/* DESKTOP */
+/* DEBUG */
+/* * {
+  outline: 1px solid red;
+} */
 
-/* GENERAL */
+
+/* DESKTOP */
 .section {
   height: 100vh;
   padding-top: 110px;
@@ -130,10 +134,21 @@ a {
   padding: 0px
 } */
 
-.avatar {
+.home-avatar {
   border-radius: 1000px;
   width: 40vh;
   margin-top: 20vh;
+  margin-bottom: 40rem;
+  border: .5rem solid white; 
+  padding: .5rem;
+}
+.aboutme-avatar {
+  border-radius: 1000px;
+  width: 40vh;
+  margin-top: 2rem;
+  margin-bottom: 3rem  !important;
+  border: .5rem solid var(--clr-accent); 
+  padding: .5rem;
 }
 .intro-col {
   margin-top: 30vh;

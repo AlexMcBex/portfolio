@@ -137,7 +137,7 @@ a {
 .home-avatar {
   border-radius: 1000px;
   width: 40vh;
-  margin-top: 20vh;
+  margin-top: 30%;
   border: .5rem solid white; 
   padding: .5rem;
 }
@@ -282,7 +282,7 @@ a {
     margin-top: 10vh;
   }
   .intro-col {
-    margin-top: 10vh;
+    margin-top: 1rem;
   }
   .section {
     height: auto;

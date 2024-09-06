@@ -11,8 +11,8 @@
 }
 
 .project-card {
-  width: 20rem;
-  height: 14rem;
+  width: 90%;
+  height: 32vh;
   margin: 10px;
   background-size: cover;
   border: solid 7px var(--clr-accent);

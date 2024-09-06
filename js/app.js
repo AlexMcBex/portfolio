@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
             image: './img/pokemon2.png',
             description: 'A web app that allows users to create their own Pokemon teams.'
         },
-        {
-            name: 'Tic Tac Toe',
-            link: 'https://alexmcbex.github.io/TicTacToeProject-0/',
-            github: 'https://github.com/AlexMcBex/TicTacToeProject-0',
-            image: './img/ttt.png',
-            description: 'A web game that allows users to play a game of tic tac toe.'
-        },
+        // {
+        //     name: 'Tic Tac Toe',
+        //     link: 'https://alexmcbex.github.io/TicTacToeProject-0/',
+        //     github: 'https://github.com/AlexMcBex/TicTacToeProject-0',
+        //     image: './img/ttt.png',
+        //     description: 'A web game that allows users to play a game of tic tac toe.'
+        // },
         {
             name: 'Project 3W',
             link: 'https://project-3w.netlify.app/',
@@ -56,13 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
             image: './img/calc.png',
             description: 'A web app that allows users to perform basic calculations.'
         },
-        {
-            name: 'Xketchez',
-            link: 'https://xketchez.onrender.com',
-            github: 'https://github.com/AlexMcBex/Xketchez',
-            image: './img/xketchez.png',
-            description: 'A web app that allows users to post their doodles and arts'
-        }
+        // {
+        //     name: 'Xketchez',
+        //     link: 'https://xketchez.onrender.com',
+        //     github: 'https://github.com/AlexMcBex/Xketchez',
+        //     image: './img/xketchez.png',
+        //     description: 'A web app that allows users to post their doodles and arts'
+        // }
     ]
 
 

@@ -9,6 +9,7 @@
 }
 .navbar-item {
   transition: 0.5s ease;
+  font-weight: bold;
 }
 .navbar-brand {
   font-family: var(--ff-secondary);

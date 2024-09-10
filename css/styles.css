@@ -218,6 +218,21 @@ a {
   padding: 10px;
   border: 2px solid black;
 }
+ .contact-icon:hover {
+  transform: scale(1.2);
+  margin-left: .5rem;
+  margin-right: .5rem;
+} 
+.contact-icon-mail:hover {
+ transform: scale(1.2);
+ margin-left: .5rem;
+ margin-right: .5rem;
+} 
+.contact-icon-resume:hover {
+ transform: scale(1.2);
+ margin-left: .5rem;
+ margin-right: .5rem;
+} 
 .contact-icon-mail {
   background-color: white;
   border-radius: 20px;

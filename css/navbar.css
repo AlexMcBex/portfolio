@@ -13,7 +13,7 @@
 }
 .navbar-brand {
   font-family: var(--ff-secondary);
-  padding: 9px;
+  /* padding: 0.5rem; */
   transition: 0.5s ease;
 }
 .navbar {

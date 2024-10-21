@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
+    const titleIntro = document.getElementsByClassName('title-intro')[0]
+    const introString = "Hi! I'm Alex, \n a Full Stack Software Developer \n based in New York City"
+    for (let i = 0; i < introString.length; i++ ){
+    setTimeout(() => {
+        titleIntro.textContent += introString[i];
+    }, 50 * i);
+    }
+
     // projects
     const projects = [
         {

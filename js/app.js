@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link: 'https://fishinabucket.netlify.app/',
             github: 'https://github.com/AlexMcBex/Fish-in-a-Bucket---Project-1',
             image: './img/fish.png',
-            description: 'Project 1: A funny pixelous fish-catching game.'
+            description: 'A funny pixelous fish-catching game.'
         },
         {
             name: 'Pokemon Teams',
@@ -50,12 +50,19 @@ document.addEventListener('DOMContentLoaded', () => {
         //     image: './img/ttt.png',
         //     description: 'A web game that allows users to play a game of tic tac toe.'
         // },
+        // {
+        //     name: 'Project 3W',
+        //     link: 'https://project-3w.netlify.app/',
+        //     github: 'https://github.com/AlexMcBex/Project3-client',
+        //     image: './img/3w.png',
+        //     description: 'This React powered app allows the user to keep track of their goals'
+        // },
         {
-            name: 'Project 3W',
-            link: 'https://project-3w.netlify.app/',
-            github: 'https://github.com/AlexMcBex/Project3-client',
-            image: './img/3w.png',
-            description: 'This React powered app allows the user to keep track of their goals'
+            name: 'TruestEstate',
+            link: 'https://truest-estate.onrender.com/',
+            github: 'https://github.com/AlexMcBex/MERN-real-estate',
+            image: './img/truestestate.png',
+            description: 'A MERN Stack application that allows users to buy and sell real estate.'
         },
         {
             name: 'Calculator',
